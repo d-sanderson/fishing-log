@@ -83,7 +83,7 @@ function init() {
 	$wpr = Plugin::get_instance();
 	$wpr_shortcode = Shortcode::get_instance();
 	$wpr_admin = Admin::get_instance();
-	$wpr_rest = Endpoint\Example::get_instance();
+	$wpr_rest = Endpoint\FishingSpot::get_instance();
 }
 add_action( 'plugins_loaded', 'Pangolin\\WPR\\init' );
 
@@ -134,3 +134,6 @@ include __DIR__ . '/includes/CustomMetaBoxes/fishing-spot-cmb2.php';
 */
 //Require wp-geo-meta-lib
 require_once( __DIR__ .'/includes/wp-geometa-lib/wp-geometa-lib-loader.php');
+
+
+

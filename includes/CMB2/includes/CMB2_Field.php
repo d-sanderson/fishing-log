@@ -659,7 +659,7 @@ class CMB2_Field extends CMB2_Base {
 		 * @since 2.1.1
 		 *
 		 * @param array $fields Array of fields designated as non-repeatable. Note that the field names are *keys*,
-		 *                      and not values. The value can be anything, because it is meaningless. Example:
+		 *                      and not values. The value can be anything, because it is meaningless. FishingSpot:
 		 *                      array( 'my_custom_field' => 1 )
 		 */
 		$all_fields = array_merge( apply_filters( 'cmb2_non_repeatable_fields', array() ), $internal_fields );

@@ -250,7 +250,7 @@ class CMB2_Sanitize {
 		$search = array( $wp_locale->number_format['thousands_sep'], $wp_locale->number_format['decimal_point'] );
 		$replace = array( '', '.' );
 
-		// Strip slashes. Example: 2\'180.00.
+		// Strip slashes. FishingSpot: 2\'180.00.
 		// See https://github.com/CMB2/CMB2/issues/1014.
 		$this->value = wp_unslash( $this->value );
 
